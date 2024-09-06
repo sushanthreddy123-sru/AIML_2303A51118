@@ -1,0 +1,143 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOkwzFxnRUXDfFpqXBWc0Gn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sushanthreddy123-sru/AIML_2303A51118/blob/main/lab%201%20intro%20to%20python.pynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pzAyn_YxM_IH",
+        "outputId": "2f1a28eb-dca1-49c8-c94a-ef54658ed7d5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sine: [0.84147098 0.90929743 0.14112001]\n",
+            "Natural logarithm:  [0.         0.69314718 1.09861229]\n",
+            "Base-10 logarithm:  [0.         0.30103    0.47712125]\n",
+            "Base-2 logarithm:  [0.        1.        1.5849625]\n",
+            "Exponential:  [ 2.71828183  7.3890561  20.08553692]\n"
+          ]
+        }
+      ],
+      "source": [
+        "# sine function\n",
+        "print(\"Sine:\",np.sin(array1))\n",
+        "# logarithm\n",
+        "print(\"Natural logarithm: \",np.log(array1))\n",
+        "print(\"Base-10 logarithm: \",np.log10(array1))\n",
+        "print(\"Base-2 logarithm: \",np.log2(array1))\n",
+        "#exponential\n",
+        "print(\"Exponential: \",np.exp(array1))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# @Lab01 Introduction to python library"
+      ],
+      "metadata": {
+        "id": "j05PzlO3NlrM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"array1 multiplied by array2 is :\",array1*array2)\n",
+        "print(\"array1 added to array2 is:\",array1+array2)\n",
+        "print(\"array1 subtracted from array2 is :\",array1-array2)\n",
+        "print(\"array1 divided by array2 is :\",array1/array2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-Q_qBZruPGWa",
+        "outputId": "103b8867-738d-41db-ed3b-6163d70a17cd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "array1 multiplied by array2 is : [ 4 10 18]\n",
+            "array1 added to array2 is: [5 7 9]\n",
+            "array1 subtracted from array2 is : [-3 -3 -3]\n",
+            "array1 divided by array2 is : [0.25 0.4  0.5 ]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "6oRgzWU-TGED"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "list1=[1,2,3]\n",
+        "list2=[4,5,6]\n",
+        "array1 = np.array(list1)\n",
+        "array1\n",
+        "array2 = np.array(list2)\n",
+        "array2\n",
+        "print(array1)\n",
+        "print(array2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "74ZuKk7CN8sJ",
+        "outputId": "ca5cd515-c1a4-47fc-fefa-f5f834e72fa5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1 2 3]\n",
+            "[4 5 6]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
