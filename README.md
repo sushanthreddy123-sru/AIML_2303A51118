@@ -6,3 +6,4 @@ lab-03-https://github.com/sushanthreddy123-sru/AIML_2303A51118/blob/main/lab3.ip
 lab-05-https://github.com/sushanthreddy123-sru/AIML_2303A51118/blob/main/lab_05.ipynb
 lab-06-https://github.com/sushanthreddy123-sru/AIML_2303A51118/blob/main/lab_6.ipynb
 lab-07-https://github.com/sushanthreddy123-sru/AIML_2303A51118/blob/main/lab_07.ipynb
+lab-10-https://github.com/sushanthreddy123-sru/AIML_2303A51118/blob/main/lab%3D10.ipynb
